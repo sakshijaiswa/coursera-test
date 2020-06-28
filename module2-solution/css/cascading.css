@@ -23,14 +23,23 @@ p>span{
 	position: absolute;
 	top: 0;
 	right: 0;
-	background-color: orchid;
 	width: 30%;
 	height: 27px;
 	text-align: center;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 }
-
+#Chicken{
+	background-color: orchid;
+	color: black;
+}
+#Sushi{
+	background-color: coral;
+}
+#Beef{
+	background-color: purple;
+	color: white;
+}
 @media (min-width: 992px)
 {
 	p{
