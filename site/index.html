@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera</title>
+	<meta charset='utf-8'>
+	<title></title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin:0;
+			padding: 0;
+		}
+		h1{
+			margin-bottom: 15px;
+		}
+		p{
+			width: 50px;
+			height:50px;
+			margin-bottom: 15px;
+		}
+		div#container{
+			background-color: purple;
+			position: relative;
+		}
+		#p1{
+			background-color: maroon;
+			position: relative;
+			top: 30px;
+			left:50px;
+		}
+		#p2{
+			background-color: orchid;
+			/*width:75px;*/
+		}
+		#p3{
+			background-color: brown;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	</style>
 </head>
 <body>
-	<h1>Hello coursera</h1>
-
+	<h1>Positioning</h1>
+	<div id='container'>
+		<p id='p1'></p>
+		<p id='p2'></p>
+		<p id='p3'></p>
+	</div>
 </body>
 </html>
