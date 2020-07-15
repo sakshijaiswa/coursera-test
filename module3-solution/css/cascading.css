@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.navcla{
+	text-align: center;
+}
+
+.navcla a:hover{
+	background-color: grey;
+	color: black;
+}
+.cla{
+	background-color: grey;
+	margin-bottom: 30px;
+	width:87%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+	padding: 5px;
+}
+.col-md-6,.col-md-12,.col-lg-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.weight{
+	font-weight: 600;
+	
+	font-size: 27px;
+}
+@media (min-width: 992px ) and (max-width: 1199px){
+	.height{
+		width: 96%;
+	}
+}
